@@ -1,5 +1,7 @@
 const expect = chai.expect;
 
+const currentUser = 'Andy'
+
 describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
