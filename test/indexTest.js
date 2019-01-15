@@ -4,6 +4,8 @@ const currentUser = 'Andy';
 
 const welcomeMessage = `Welcome to Flatbook, ' + ${currentUser}!`
 
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
+
 describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
