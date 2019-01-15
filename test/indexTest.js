@@ -2,7 +2,7 @@ const expect = chai.expect;
 
 const currentUser = 'Andy';
 
-const welcomeMessage = currentUser;
+const welcomeMessage = 'Welcome to Flatbook, currentUser';
 
 describe('index.js', () => {
   describe('currentUser', () => {
